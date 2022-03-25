@@ -3454,6 +3454,11 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+node-ccavenue@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/node-ccavenue/-/node-ccavenue-1.0.5.tgz#e2eda45b08ac71d8c1c19551093ca40ccdacae62"
+  integrity sha512-b83TmBV8GgAVPafdHc3ufaphJ+MJqgue0tJouHOHPS3JbqDt0R9BMkNqvQrHWBKQBHtK42LziS8youlr7/FVoQ==
+
 node-fetch@2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"

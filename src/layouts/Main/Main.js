@@ -7,12 +7,14 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
+import Button from '@mui/material/Button';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 
 import Container from '../../components/Container';
 import { Topbar, Sidebar, Footer, ThemeModeToggler } from './components';
 
 import pages from '../navigation';
+
 
 const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
   const theme = useTheme();
@@ -46,41 +48,28 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
             justifyContent={'flex-end'}
             alignItems={'center'}
           >
-            <Box marginRight={2}>
-              <Link
-                underline="none"
-                component="a"
-                href="/blocks"
-                color={colorInvert ? 'common.white' : 'text.primary'}
-                sx={{ display: 'flex', alignItems: 'center' }}
-              >
-                Components
-                <Box
-                  padding={0.5}
-                  display={'inline-flex'}
-                  borderRadius={1}
-                  bgcolor={'primary.main'}
-                  marginLeft={1}
-                >
-                  <Typography
-                    variant={'caption'}
-                    sx={{ color: 'common.white', lineHeight: 1 }}
-                  >
-                    new
-                  </Typography>
-                </Box>
-              </Link>
-            </Box>
-            <Box marginRight={2}>
-              <Link
-                underline="none"
-                component="a"
-                href="/docs/introduction"
-                color={colorInvert ? 'common.white' : 'text.primary'}
-              >
-                Docs
-              </Link>
-            </Box>
+                        <Box marginRight={2}>
+                        <Link href="/signin">
+            <Button
+            variant="contained"
+            color="primary"
+            size="large"
+            >  
+            LOGIN
+          </Button>
+          </Link>
+          </Box>
+          <Box marginRight={2}>
+          <Link href="/signup">
+            <Button
+            variant="contained"
+            color="primary"
+            size="large"
+          >
+            REGISTER
+          </Button>
+          </Link>
+          </Box>
             <Box>
               <ThemeModeToggler />
             </Box>

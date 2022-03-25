@@ -45,6 +45,7 @@
     "formik": "^2.2.6",
     "jarallax": "^1.12.7",
     "next": "^11.1.2",
+    "node-ccavenue": "^1.0.5",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-countup": "^4.3.3",
